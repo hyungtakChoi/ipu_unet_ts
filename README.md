@@ -22,19 +22,19 @@ pip3 install poptorch...x86_64.whl
 ```   
 
 4. Install requirement package
-'''bash
+```bash
 pip install -r requirements.txt
-'''   
+```   
 
 ## dataset
 The dataset is used by downloading files stored in a shared Google Cloud.   
-'''bash
+```bash
 ./dataset_download.sh
-'''
+```
 
 ## train
-Set the downloaded dataset path in the '''ipu_train.py''' code.
-'''bash
+Set the downloaded dataset path in the ```ipu_train.py``` code.
+```bash
 python ipu_train.py
-'''
+```
 
