@@ -29,7 +29,7 @@ pip install -r requirements.txt
 ## dataset
 The dataset is used by downloading files stored in a shared Google Cloud.   
 ```bash
-./dataset_download.sh
+bash dataset_download.sh
 ```
 
 ## train
